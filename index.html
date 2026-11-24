@@ -1,44 +1,7 @@
-<!DOCTYPE html>
-
-<html class="scroll-smooth" lang="es">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>MI MAQUETITA 3D | Maquetas escolares y universitarias en Santa Cruz</title>
-<!-- SEO Básico y Metadatos Locales -->
-<meta content="MI MAQUETITA 3D: Elaboración y venta de maquetas escolares, universitarias, de arquitectura, ciencias naturales, biología, matemáticas y geografía en Santa Cruz de la Sierra, Bolivia. Solicita tu cotización por WhatsApp." name="description"/>
-<meta content="maquetas escolares Santa Cruz, maquetas universitarias Bolivia, maquetas de arquitectura, maquetas de biología, maquetas de ciencias naturales, MI MAQUETITA 3D, cotizar maqueta Santa Cruz de la Sierra" name="keywords"/>
-<meta content="MI MAQUETITA 3D" name="author"/>
-<meta content="index, follow" name="robots"/>
-<!-- Open Graph para compartir en redes sociales y WhatsApp -->
-<meta content="MI MAQUETITA 3D | Transformamos tus ideas en maquetas extraordinarias" property="og:title"/>
-<meta content="Creatividad, precisión y calidad en cada proyecto. Elaboración personalizada de maquetas escolares y universitarias en Santa Cruz de la Sierra, Bolivia." property="og:description"/>
-<meta content="website" property="og:type"/>
-<meta content="es_BO" property="og:locale"/>
-<!-- Datos Estructurados Schema.org (SEO Local - Sin datos inventados) -->
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "MI MAQUETITA 3D",
-    "description": "Elaboración y venta de maquetas escolares y universitarias personalizadas en Santa Cruz de la Sierra, Bolivia.",
-    "telephone": "+59162161402",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Santa Cruz de la Sierra",
-      "addressRegion": "Santa Cruz",
-      "addressCountry": "BO"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Santa Cruz de la Sierra"
-    }
-  }
-  </script>
-<!-- Tipografía Moderna: Inter -->
+<!-- Tipografía acorde al negocio de maquetas 3D: Fredoka + Rubik (volumen creativo) + Caveat (notas de taller) + Plus Jakarta Sans -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Fredoka:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Rubik:ital,wght@0,600;0,700;0,800;0,900;1,800&amp;display=swap" rel="stylesheet"/>
 <!-- Tailwind CSS CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -46,11 +9,13 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            display: ['Fredoka', 'Rubik', 'system-ui', 'sans-serif'],
+            hand: ['Caveat', 'cursive'],
           },
           colors: {
-            paper: '#FAF9F6',
-            ink: '#0F172A',
+            paper: '#F2FBF8',
+            ink: '#082F49',
             blueprint: {
               50: '#F0F9FF',
               100: '#E0F2FE',
@@ -59,11 +24,11 @@
               900: '#0C4A6E',
             },
             craft: {
-              50: '#FFFBEB',
-              100: '#FEF3C7',
-              500: '#F59E0B',
-              600: '#D97706',
-              700: '#B45309',
+              50: '#ECFDF5',
+              100: '#D1FAE5',
+              500: '#10B981',
+              600: '#059669',
+              700: '#047857',
             },
             whatsapp: {
               500: '#25D366',
@@ -76,30 +41,554 @@
     };
   </script>
 
+<!-- Diseño Creativo Taller 3D (Cutting Mat + Relieve Táctil + Stickers) en Verdes y Azules -->
 <style id="maquetita-premium-redesign">
-:root{--peach:#f46e49;--navy:#262632;--cream:#fffaf5;--lavender:#edddff;--ochre:#ffd879}
-html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!important;letter-spacing:-.01em}
-.announcement-bar{height:37px;background:#2a2430;color:#fff;display:flex;align-items:center;justify-content:center;gap:25px;padding:0 14px;font-size:10px;font-weight:800;letter-spacing:.13em}.announcement-bar a{color:#ffd5ba;text-decoration:none;font-size:11px;letter-spacing:0}.announcement-bar a:hover{text-decoration:underline}
-#navbar{background:rgba(255,253,249,.94)!important;border-bottom:1px solid #f1e5de!important;box-shadow:none!important}
-#navbar .max-w-7xl{max-width:1360px!important}#navbar .bg-slate-900{background:#f36d49!important;color:#fff!important}#navbar .text-amber-600{color:#ec6545!important}#navbar .nav-link:hover{background:#fff1e9!important;color:#c95035!important}#navbar a[href="#cotizar"].bg-slate-900{border-radius:999px!important;background:#262632!important;box-shadow:0 7px 20px #25223220!important}#navbar .nav-link{font-weight:650!important}
-.premium-hero{position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(115deg,#fff9f2 0%,#fff4ee 58%,#f3e9ff 100%)}
-.hero-ambient{position:absolute;border-radius:50%;filter:blur(50px);opacity:.32;z-index:-1}.orb-one{height:410px;width:410px;top:10%;right:2%;background:#f6bd92}.orb-two{height:250px;width:250px;bottom:8%;left:18%;background:#dec4ff}
-.hero-container{max-width:1380px;margin:auto;padding:70px 34px 85px;display:grid;grid-template-columns:1fr 1.06fr;align-items:center;gap:30px;min-height:620px}
-.hero-copy{position:relative;z-index:2}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid #f3ccbb;background:#fff9f4;border-radius:100px;padding:9px 15px;color:#a85c43;font-size:11px;font-weight:850;letter-spacing:.10em}.eyebrow-dot{width:7px;height:7px;background:#ef7551;border-radius:50%}
-.hero-copy h1{font-size:clamp(50px,5.4vw,88px);line-height:1.02;letter-spacing:-.075em;font-weight:850;color:#292632;margin:28px 0 22px;max-width:740px}.hero-copy h1 em{color:#f16d49;font-style:normal;display:block}
-.hero-sub{font-size:clamp(16px,1.45vw,20px);line-height:1.75;color:#716a73;max-width:570px}.hero-cta{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin-top:32px}.cta-main,.cta-secondary{display:inline-flex;justify-content:center;align-items:center;gap:24px;font-size:15px;font-weight:800;padding:17px 24px;border-radius:999px;text-decoration:none;transition:all .22s ease}.cta-main{background:#f16d49;color:white;box-shadow:0 10px 25px #f16d4933}.cta-main:hover{background:#d95638;transform:translateY(-2px)}.cta-secondary{border:1px solid #e8dad4;color:#39333b;background:#fff8f4}.cta-secondary:hover{border-color:#ee997d;background:#fff}.hero-small-proof{display:flex;align-items:center;gap:16px;margin-top:45px}.hero-small-proof p{color:#877c80;font-size:12px;line-height:1.55}.hero-small-proof strong{color:#34313b;font-size:13px}.proof-avatars{display:flex;padding-left:8px}.proof-avatars span{height:40px;width:40px;border:3px solid #fffaf5;border-radius:50%;background:#f4c1b1;color:#943d2e;display:grid;place-items:center;margin-left:-9px;font-size:12px;font-weight:850}.proof-avatars span:nth-child(2){background:#e8d8ff;color:#6b3db0}.proof-avatars span:nth-child(3){background:#d3e5d2;color:#287148}
-.hero-art{position:relative;min-width:0}.hero-art-panel{height:570px;position:relative;background:radial-gradient(circle at 60% 30%,#fffdf8 0%,#fbe3d9 56%,#f2d3c9 100%);border-radius:48% 48% 41% 43%;border:1px solid #f8e3d7;box-shadow:inset 0 0 0 12px #fff7ef99}.diorama{position:absolute;width:110%;max-width:none;left:-6%;top:-2%;filter:drop-shadow(0 30px 20px #936d5b15);transform:rotate(-2deg);animation:heroFloat 6s ease-in-out infinite}@keyframes heroFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-12px) rotate(-1deg)}}.floating-card{position:absolute;z-index:2;display:flex;align-items:center;gap:10px;padding:12px 18px;border-radius:17px;background:#fffefbe8;backdrop-filter:blur(10px);box-shadow:0 16px 35px #5c403126;border:1px solid #fff;min-width:210px}.floating-card strong{display:block;font-size:12px;color:#37313b}.floating-card small{display:block;font-size:10px;color:#8b7f82;margin-top:4px}.card-top{top:11%;left:-3%;transform:rotate(-5deg)}.card-bottom{right:-1%;bottom:13%;transform:rotate(4deg)}.card-symbol{width:39px;height:39px;border-radius:12px;background:#ffddc9;color:#e66e46;display:grid;place-items:center;font-size:24px}.card-symbol.lavender{background:#ebe0ff;color:#8d68c5}.mini-stamp{position:absolute;left:7%;bottom:14%;font-size:10px;font-weight:800;letter-spacing:.12em;line-height:1.5;color:#aa7660;transform:rotate(-10deg)}.mini-stamp b{display:block;font-size:24px;letter-spacing:-.03em;color:#7b483a}.mini-stamp span{display:block;font-size:15px;color:#b77d66}
-.hero-bottom-line{background:#fffdf9;border-top:1px solid #eee0d8;border-bottom:1px solid #eee0d8;display:flex;justify-content:space-around;gap:20px;flex-wrap:wrap;padding:21px 25px;color:#8a7882;font-weight:850;letter-spacing:.18em;font-size:11px}
-#servicios,#galeria,#como-solicitar,#cotizar,#contacto{background:#fffaf6!important}#servicios{padding-top:100px!important}#servicios h2,#galeria h2,#como-solicitar h2,#cotizar h2{color:#302b33!important;font-size:clamp(34px,3.2vw,52px)!important;line-height:1.13!important;letter-spacing:-.05em!important}#servicios .bg-amber-100,#como-solicitar .bg-amber-100,#galeria .bg-sky-100{background:#ffe7da!important;color:#b45136!important}#services-grid{gap:22px!important}#services-grid article{background:#fff!important;border:1px solid #efe8e1!important;border-radius:25px!important;box-shadow:0 8px 35px #5c3b2210!important}#services-grid article:hover{transform:translateY(-7px);box-shadow:0 17px 42px #5c3b2221!important}#services-grid article>div:first-child{height:205px!important}#services-grid h3{font-size:17px!important;color:#342f3a!important}#services-grid button{border-radius:100px!important;background:#fff5ee!important;color:#ba5437!important;border-color:#ffe3d4!important}#services-grid button:hover{background:#f16d49!important;color:white!important}
-#galeria{background:#fff!important}.portfolio-feature{margin:0 0 50px;display:grid;grid-template-columns:1.05fr 1fr;min-height:290px;border-radius:30px;overflow:hidden;background:#332a3f;color:white}.portfolio-text{padding:45px 50px}.feature-kicker{font-size:10px;font-weight:850;letter-spacing:.18em;color:#ffc9b6}.portfolio-text h3{font-size:clamp(27px,2.7vw,42px);font-weight:850;letter-spacing:-.055em;line-height:1.18;margin:14px 0}.portfolio-text h3 em{color:#ffaf94;font-style:normal}.portfolio-text p{color:#d7cddf;font-size:14px;line-height:1.7;max-width:440px}.feature-link{display:inline-flex;gap:18px;color:white;text-decoration:none;font-size:13px;font-weight:850;margin-top:22px;border-bottom:1px solid #e9c5bd;padding-bottom:8px}.portfolio-illustration{background:radial-gradient(circle at center,#f7b5a2,#d47f94 60%,#9857a0);position:relative;overflow:hidden}.shape{position:absolute;transform:rotate(-26deg);border-radius:24px;box-shadow:24px 35px 30px #4b19443b}.shape-1{width:175px;height:175px;background:#e7cefc;left:23%;top:14%}.shape-2{width:127px;height:127px;background:#fdebbe;left:54%;top:33%}.shape-3{width:102px;height:102px;background:#a4dcb8;left:16%;top:55%}.shape-label{position:absolute;bottom:20px;right:25px;color:white;font-size:11px;font-weight:850;letter-spacing:.16em}#gallery-grid article{border-radius:24px!important;border:1px solid #ede6e5!important;box-shadow:0 9px 26px #4334330e!important}#gallery-grid article:hover{transform:translateY(-5px);box-shadow:0 17px 36px #43343321!important}#gallery-grid article>div:first-child{height:250px!important}#gallery-filters button{border-radius:999px!important}#gallery-filters button[aria-selected="true"]{background:#f16d49!important;border-color:#f16d49!important}
-#por-que-elegirnos{background:#302a38!important}#por-que-elegirnos .bg-slate-800\/80{background:#413a4b!important}#por-que-elegirnos h2{letter-spacing:-.05em!important}#como-solicitar .grid>div{border-radius:24px!important;background:white!important;box-shadow:0 9px 24px #5c3b2210!important}#cotizar form{border-radius:30px!important;border:1px solid #f0e0d9!important;box-shadow:0 30px 65px #40262912!important}#cotizar button[type="submit"]{border-radius:999px!important}#contacto .bg-slate-900{background:#352c3e!important;border-radius:30px!important}footer{background:#292330!important}
-@media(max-width:980px){.hero-container{padding:55px 26px 70px;grid-template-columns:1fr}.hero-copy{text-align:center}.hero-copy h1{margin-left:auto;margin-right:auto}.hero-sub{margin-left:auto;margin-right:auto}.hero-cta,.hero-small-proof{justify-content:center}.hero-art{max-width:680px;width:100%;margin:0 auto}.hero-art-panel{height:500px}.portfolio-feature{grid-template-columns:1fr 1fr}}
-@media(max-width:640px){.announcement-bar{font-size:8px;gap:8px;letter-spacing:.04em}.announcement-bar a{font-size:9px}.hero-container{padding:45px 18px 55px;gap:25px}.hero-copy h1{font-size:clamp(43px,12vw,62px);letter-spacing:-.065em}.hero-sub{font-size:16px}.hero-cta{flex-direction:column;align-items:stretch}.cta-main,.cta-secondary{width:100%}.hero-art-panel{height:360px;border-radius:43%}.diorama{width:115%;top:-7%;left:-8%}.floating-card{min-width:160px;padding:9px 10px}.floating-card strong{font-size:10px}.floating-card small{font-size:9px}.card-symbol{width:28px;height:28px;font-size:18px}.mini-stamp{display:none}.hero-bottom-line{gap:13px;padding:17px 10px;font-size:9px}.portfolio-feature{grid-template-columns:1fr}.portfolio-text{padding:35px 27px}.portfolio-illustration{height:170px}#servicios{padding-top:65px!important}#services-grid article>div:first-child{height:220px!important}}
-@media(prefers-reduced-motion:reduce){.diorama{animation:none}*{scroll-behavior:auto!important}}
+:root{
+  --blue-strong:#0284c7;
+  --blue-deep:#082f49;
+  --blue-light:#bae6fd;
+  --green-strong:#059669;
+  --green-vivid:#10b981;
+  --green-light:#a7f3d0;
+  --teal-vivid:#0d9488;
+  --cream:#f2fbf8;
+  --font-display:'Fredoka','Rubik',system-ui,sans-serif;
+  --font-body:'Plus Jakarta Sans',system-ui,sans-serif;
+  --font-hand:'Caveat',cursive;
+}
+html{scroll-padding-top:95px}
+body{
+  background-color:#f2fbf8!important;
+  background-image:
+    linear-gradient(to right, rgba(2,132,199,.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(16,185,129,.055) 1px, transparent 1px)!important;
+  background-size:32px 32px!important;
+  color:#082f49!important;
+  font-family:var(--font-body)!important;
+  letter-spacing:-.005em;
+}
+h1,h2,h3,.eyebrow,.hero-bottom-line,.mini-stamp,#navbar .text-base,#navbar .sm\:text-lg{font-family:var(--font-display)!important}
+
+/* Barra superior estilo cinta creativa */
+.announcement-bar{
+  min-height:40px;
+  background:linear-gradient(90deg,#082f49 0%,#0284c7 45%,#059669 100%);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+  padding:6px 14px;
+  font-family:var(--font-display);
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:.06em;
+  border-bottom:2px dashed rgba(167,243,208,.45);
+}
+.announcement-bar a{
+  background:#10b981;
+  color:#042f2e;
+  padding:3px 12px;
+  border-radius:999px;
+  text-decoration:none;
+  font-size:11px;
+  font-weight:700;
+  box-shadow:0 2px 0 #064e3b;
+  transition:transform .15s ease;
+}
+.announcement-bar a:hover{transform:translateY(-1px);background:#34d399}
+
+/* Navbar flotante con bordes redondeados y toque táctil */
+#navbar{
+  background:rgba(255,255,255,.92)!important;
+  border-bottom:2px solid #bae6fd!important;
+  box-shadow:0 8px 25px rgba(2,132,199,.08)!important;
+}
+#navbar .max-w-7xl{max-width:1360px!important}
+#navbar .text-amber-600{color:#059669!important}
+#navbar .nav-link{font-family:var(--font-display)!important;font-weight:600!important;border-radius:999px!important}
+#navbar .nav-link:hover{background:#d1fae5!important;color:#065f46!important;transform:translateY(-1px)}
+#navbar a[href="#cotizar"].bg-slate-900{
+  border-radius:999px!important;
+  background:linear-gradient(135deg,#0284c7 0%,#10b981 100%)!important;
+  box-shadow:0 4px 0 #0369a1, 0 10px 20px rgba(2,132,199,.25)!important;
+  font-family:var(--font-display)!important;
+  transition:all .18s ease!important;
+}
+#navbar a[href="#cotizar"].bg-slate-900:hover{transform:translateY(-2px);box-shadow:0 6px 0 #0369a1, 0 14px 24px rgba(16,185,129,.3)!important}
+#navbar a[href="#cotizar"].bg-slate-900:active{transform:translateY(2px);box-shadow:0 2px 0 #0369a1!important}
+
+/* Hero creativo estilo taller 3D */
+.premium-hero{
+  position:relative;
+  overflow:hidden;
+  isolation:isolate;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(56,189,248,.22) 0%, transparent 42%),
+    radial-gradient(circle at 88% 75%, rgba(16,185,129,.22) 0%, transparent 45%),
+    linear-gradient(135deg,#f0fdfa 0%,#e0f2fe 55%,#ecfdf5 100%);
+}
+.premium-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:radial-gradient(rgba(2,132,199,.18) 1.5px, transparent 1.5px);
+  background-size:24px 24px;
+  opacity:.55;
+  z-index:-1;
+  pointer-events:none;
+}
+.hero-ambient{position:absolute;border-radius:50%;filter:blur(55px);opacity:.45;z-index:-1}
+.orb-one{height:430px;width:430px;top:4%;right:2%;background:#38bdf8}
+.orb-two{height:300px;width:300px;bottom:6%;left:12%;background:#34d399}
+.hero-container{max-width:1380px;margin:auto;padding:56px 34px 76px;display:grid;grid-template-columns:1fr 1.06fr;align-items:center;gap:34px;min-height:610px}
+.hero-copy{position:relative;z-index:2}
+
+/* Sticker / Etiqueta de taller */
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  border:2px solid #0284c7;
+  background:#ffffff;
+  border-radius:999px;
+  padding:8px 18px;
+  color:#0369a1;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.05em;
+  transform:rotate(-1.5deg);
+  box-shadow:0 4px 0 #7dd3fc, 0 10px 20px rgba(2,132,199,.12);
+}
+.eyebrow-dot{width:9px;height:9px;background:#10b981;border-radius:50%;box-shadow:0 0 0 3px rgba(16,185,129,.28)}
+
+.hero-copy h1{
+  font-size:clamp(46px,5.2vw,80px);
+  line-height:1.05;
+  letter-spacing:-.02em;
+  font-weight:700;
+  color:#082f49;
+  margin:24px 0 20px;
+  max-width:740px;
+}
+.hero-copy h1 em{
+  position:relative;
+  display:inline-block;
+  background:linear-gradient(135deg,#0284c7 0%,#0d9488 45%,#10b981 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  font-style:normal;
+  padding-bottom:6px;
+}
+.hero-copy h1 em::after{
+  content:"";
+  position:absolute;
+  left:-4px;
+  right:-4px;
+  bottom:4px;
+  height:14px;
+  background:linear-gradient(90deg,#a7f3d0,#7dd3fc);
+  border-radius:999px;
+  z-index:-1;
+  transform:rotate(-1.2deg);
+  opacity:.85;
+}
+.hero-sub{font-size:clamp(16px,1.4vw,19px);line-height:1.75;color:#1e3a5f;max-width:560px;font-weight:500}
+.hero-cta{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:30px}
+
+/* Botones 3D táctiles tipo pieza de maqueta */
+.cta-main,.cta-secondary{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+  font-family:var(--font-display);
+  font-size:16px;
+  font-weight:700;
+  padding:16px 28px;
+  border-radius:20px;
+  text-decoration:none;
+  transition:all .18s cubic-bezier(.34,1.56,.64,1);
+}
+.cta-main{
+  background:linear-gradient(135deg,#0284c7 0%,#10b981 100%);
+  color:white;
+  border:2px solid #0369a1;
+  box-shadow:0 6px 0 #0369a1, 0 14px 28px rgba(2,132,199,.3);
+}
+.cta-main:hover{transform:translateY(-3px) rotate(-1deg);box-shadow:0 9px 0 #0369a1, 0 18px 34px rgba(16,185,129,.38)}
+.cta-main:active{transform:translateY(3px);box-shadow:0 2px 0 #0369a1}
+.cta-secondary{
+  border:2px solid #0284c7;
+  color:#0369a1;
+  background:#ffffff;
+  box-shadow:0 5px 0 #bae6fd;
+}
+.cta-secondary:hover{background:#e0f2fe;transform:translateY(-3px) rotate(1deg);box-shadow:0 8px 0 #7dd3fc}
+.cta-secondary:active{transform:translateY(2px);box-shadow:0 2px 0 #7dd3fc}
+
+.hero-small-proof{
+  display:inline-flex;
+  align-items:center;
+  gap:14px;
+  margin-top:36px;
+  background:rgba(255,255,255,.88);
+  padding:10px 18px;
+  border-radius:20px;
+  border:1.5px dashed #38bdf8;
+  box-shadow:0 8px 20px rgba(2,132,199,.08);
+}
+.hero-small-proof p{color:#334155;font-size:12.5px;line-height:1.45}
+.hero-small-proof strong{color:#082f49;font-size:13.5px;font-weight:700}
+.proof-avatars{display:flex;padding-left:6px}
+.proof-avatars span{
+  height:38px;
+  width:38px;
+  border:2.5px solid #fff;
+  border-radius:14px;
+  background:linear-gradient(135deg,#0284c7,#38bdf8);
+  color:#fff;
+  display:grid;
+  place-items:center;
+  margin-left:-8px;
+  font-family:var(--font-display);
+  font-size:12px;
+  font-weight:700;
+  transform:rotate(-6deg);
+  box-shadow:0 4px 10px rgba(2,132,199,.25);
+}
+.proof-avatars span:nth-child(2){background:linear-gradient(135deg,#0d9488,#2dd4bf);transform:rotate(4deg)}
+.proof-avatars span:nth-child(3){background:linear-gradient(135deg,#059669,#34d399);transform:rotate(-3deg)}
+
+/* Escenario orgánico de la Célula 3D */
+.hero-art{position:relative;min-width:0}
+.hero-art-panel{
+  height:560px;
+  position:relative;
+  background:radial-gradient(circle at 50% 42%,#ffffff 0%,#e0f2fe 48%,#a7f3d0 100%);
+  border-radius:42% 58% 49% 51% / 46% 42% 58% 54%;
+  border:3px solid #ffffff;
+  box-shadow:
+    inset 0 0 0 10px rgba(56,189,248,.22),
+    0 22px 0 rgba(2,132,199,.12),
+    0 30px 60px rgba(8,47,73,.18);
+  animation:blobMorph 11s ease-in-out infinite;
+}
+@keyframes blobMorph{
+  0%,100%{border-radius:42% 58% 49% 51% / 46% 42% 58% 54%}
+  50%{border-radius:54% 46% 42% 58% / 52% 56% 44% 48%}
+}
+.diorama{position:absolute;width:96%;max-width:none;left:2%;top:2%;filter:drop-shadow(0 26px 20px rgba(8,47,73,.22));transform:rotate(0deg);animation:heroFloat 5.5s ease-in-out infinite}
+@keyframes heroFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}
+
+/* Tarjetas tipo sticker flotante */
+.floating-card{
+  position:absolute;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  gap:11px;
+  padding:12px 18px;
+  border-radius:20px;
+  background:#ffffff;
+  box-shadow:0 5px 0 #7dd3fc, 0 16px 32px rgba(8,47,73,.16);
+  border:2px solid #0284c7;
+  min-width:215px;
+  transition:transform .25s ease;
+}
+.floating-card:hover{transform:scale(1.04) rotate(0deg)!important}
+.floating-card strong{display:block;font-family:var(--font-display);font-size:13px;font-weight:700;color:#082f49}
+.floating-card small{display:block;font-size:11px;color:#0369a1;font-weight:600;margin-top:2px}
+.card-top{top:8%;left:-4%;transform:rotate(-5deg)}
+.card-bottom{right:-2%;bottom:11%;transform:rotate(4deg);border-color:#059669;box-shadow:0 5px 0 #6ee7b7, 0 16px 32px rgba(8,47,73,.16)}
+.card-symbol{width:40px;height:40px;border-radius:14px;background:linear-gradient(135deg,#0284c7,#38bdf8);color:#fff;display:grid;place-items:center;font-size:21px;box-shadow:0 4px 10px rgba(2,132,199,.3)}
+.card-symbol.lavender{background:linear-gradient(135deg,#059669,#34d399);color:#fff;box-shadow:0 4px 10px rgba(5,150,105,.3)}
+
+/* Nota manuscrita creativa en el Hero */
+.mini-stamp{
+  position:absolute;
+  left:4%;
+  bottom:9%;
+  background:#ecfdf5;
+  border:2px dashed #10b981;
+  padding:8px 14px;
+  border-radius:16px;
+  font-family:var(--font-hand)!important;
+  font-size:18px;
+  font-weight:700;
+  line-height:1.1;
+  color:#065f46;
+  transform:rotate(-8deg);
+  box-shadow:0 8px 18px rgba(5,150,105,.14);
+}
+.mini-stamp b{display:inline;font-family:var(--font-display);font-size:17px;color:#0284c7}
+.mini-stamp span{display:block;font-family:var(--font-display);font-size:12px;color:#059669;letter-spacing:.05em}
+
+/* Cinta de especialidades tipo regla creativa */
+.hero-bottom-line{
+  background:linear-gradient(90deg,#082f49 0%,#0369a1 50%,#047857 100%);
+  border-top:3px solid #38bdf8;
+  border-bottom:3px solid #34d399;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+  flex-wrap:wrap;
+  padding:16px 20px;
+}
+.hero-bottom-line span{
+  background:rgba(255,255,255,.12);
+  border:1.5px solid rgba(167,243,208,.45);
+  color:#ecfdf5;
+  padding:6px 16px;
+  border-radius:999px;
+  font-weight:700;
+  letter-spacing:.08em;
+  font-size:12px;
+  transition:transform .2s ease, background .2s ease;
+}
+.hero-bottom-line span:hover{background:#10b981;color:#042f2e;transform:translateY(-2px) rotate(-2deg)}
+
+/* Secciones con toque de taller artesanal */
+#servicios,#como-solicitar,#cotizar,#contacto{background:transparent!important}
+#servicios{padding-top:88px!important}
+#servicios h2,#galeria h2,#como-solicitar h2,#cotizar h2{
+  color:#082f49!important;
+  font-size:clamp(32px,3.2vw,48px)!important;
+  line-height:1.15!important;
+  letter-spacing:-.015em!important;
+  font-weight:700!important;
+}
+#servicios .bg-amber-100,#como-solicitar .bg-amber-100,#galeria .bg-sky-100{
+  background:linear-gradient(135deg,#d1fae5 0%,#bae6fd 100%)!important;
+  color:#065f46!important;
+  border:2px solid #10b981;
+  box-shadow:0 3px 0 #6ee7b7;
+  font-family:var(--font-display);
+  transform:rotate(-1deg);
+}
+
+/* Tarjetas de Servicios estilo piezas recortadas con relieve 3D */
+#services-grid{gap:24px!important}
+#services-grid article{
+  background:#fff!important;
+  border:2px solid #7dd3fc!important;
+  border-radius:28px!important;
+  box-shadow:0 7px 0 #bae6fd, 0 14px 30px rgba(2,132,199,.08)!important;
+  transition:all .24s cubic-bezier(.34,1.56,.64,1)!important;
+}
+#services-grid article:nth-child(odd):hover{transform:translateY(-8px) rotate(-1.2deg)!important;border-color:#0284c7!important;box-shadow:0 11px 0 #7dd3fc, 0 22px 40px rgba(2,132,199,.18)!important}
+#services-grid article:nth-child(even):hover{transform:translateY(-8px) rotate(1.2deg)!important;border-color:#10b981!important;box-shadow:0 11px 0 #6ee7b7, 0 22px 40px rgba(16,185,129,.18)!important}
+#services-grid article>div:first-child{height:205px!important;border-bottom:2px dashed #bae6fd}
+#services-grid h3{font-size:18px!important;font-weight:700!important;color:#082f49!important}
+#services-grid button{
+  border-radius:16px!important;
+  background:#e0f2fe!important;
+  color:#0369a1!important;
+  border:2px solid #7dd3fc!important;
+  box-shadow:0 3px 0 #7dd3fc!important;
+  font-family:var(--font-display);
+  font-weight:700!important;
+}
+#services-grid button:hover{
+  background:linear-gradient(135deg,#0284c7 0%,#10b981 100%)!important;
+  color:white!important;
+  border-color:#0369a1!important;
+  box-shadow:0 4px 0 #0369a1!important;
+}
+
+/* Galería creativa */
+#galeria{
+  background:linear-gradient(180deg,#ffffff 0%,#f0fdfa 100%)!important;
+  border-top:2px dashed #bae6fd!important;
+  border-bottom:2px dashed #a7f3d0!important;
+}
+.portfolio-feature{
+  margin:0 0 46px;
+  display:grid;
+  grid-template-columns:1.05fr 1fr;
+  min-height:290px;
+  border-radius:32px;
+  overflow:hidden;
+  background:linear-gradient(125deg,#082f49 0%,#0369a1 52%,#047857 100%);
+  color:white;
+  border:3px solid #38bdf8;
+  box-shadow:0 10px 0 #bae6fd, 0 24px 48px rgba(3,105,161,.22);
+}
+.portfolio-text{padding:42px 48px}
+.feature-kicker{
+  display:inline-block;
+  background:rgba(16,185,129,.25);
+  border:1px solid #6ee7b7;
+  padding:4px 12px;
+  border-radius:999px;
+  font-family:var(--font-display);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.1em;
+  color:#a7f3d0;
+}
+.portfolio-text h3{font-size:clamp(26px,2.6vw,40px);font-weight:700;line-height:1.18;margin:14px 0}
+.portfolio-text h3 em{color:#7dd3fc;font-style:normal;text-decoration:underline wavy #34d399 2.5px;text-underline-offset:6px}
+.portfolio-text p{color:#e0f2fe;font-size:14.5px;line-height:1.7;max-width:440px}
+.feature-link{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  background:#10b981;
+  color:#042f2e;
+  padding:10px 20px;
+  border-radius:999px;
+  text-decoration:none;
+  font-family:var(--font-display);
+  font-size:14px;
+  font-weight:700;
+  margin-top:22px;
+  box-shadow:0 4px 0 #064e3b;
+  transition:transform .18s ease;
+}
+.feature-link:hover{transform:translateY(-2px);background:#34d399}
+.portfolio-illustration{background:radial-gradient(circle at center,#34d399,#0284c7 58%,#082f49);position:relative;overflow:hidden}
+.shape{position:absolute;transform:rotate(-22deg);border-radius:26px;border:3px solid rgba(255,255,255,.65);box-shadow:18px 25px 25px rgba(8,47,73,.32);transition:transform .4s ease}
+.portfolio-feature:hover .shape-1{transform:rotate(-12deg) scale(1.05)}
+.portfolio-feature:hover .shape-2{transform:rotate(14deg) scale(1.08)}
+.shape-1{width:170px;height:170px;background:#7dd3fc;left:22%;top:14%}
+.shape-2{width:125px;height:125px;background:#a7f3d0;left:54%;top:32%}
+.shape-3{width:100px;height:100px;background:#2dd4bf;left:16%;top:55%}
+.shape-label{
+  position:absolute;
+  bottom:18px;
+  right:22px;
+  background:rgba(8,47,73,.75);
+  backdrop-filter:blur(6px);
+  padding:6px 14px;
+  border-radius:999px;
+  border:1.5px solid #6ee7b7;
+  color:white;
+  font-family:var(--font-display);
+  font-size:11.5px;
+  font-weight:700;
+  letter-spacing:.12em;
+}
+
+#gallery-grid article{
+  border-radius:26px!important;
+  border:2px solid #bae6fd!important;
+  box-shadow:0 6px 0 #e0f2fe, 0 12px 28px rgba(2,132,199,.07)!important;
+  transition:all .24s cubic-bezier(.34,1.56,.64,1)!important;
+}
+#gallery-grid article:hover{
+  transform:translateY(-6px) rotate(.8deg)!important;
+  border-color:#10b981!important;
+  box-shadow:0 10px 0 #a7f3d0, 0 20px 38px rgba(16,185,129,.18)!important;
+}
+#gallery-grid article>div:first-child{height:245px!important}
+#gallery-filters button{
+  border-radius:999px!important;
+  font-family:var(--font-display);
+  border-width:2px!important;
+}
+#gallery-filters button[aria-selected="true"]{
+  background:linear-gradient(135deg,#0284c7 0%,#10b981 100%)!important;
+  border-color:#0369a1!important;
+  box-shadow:0 4px 0 #0369a1!important;
+}
+
+/* Sección Por qué elegirnos con estilo creativo 3D */
+#por-que-elegirnos{
+  background:linear-gradient(135deg,#082f49 0%,#065f46 55%,#0c4a6e 100%)!important;
+}
+#por-que-elegirnos .bg-slate-800\/80{
+  background:rgba(255,255,255,.10)!important;
+  backdrop-filter:blur(10px);
+  border:2px solid rgba(125,211,252,.35)!important;
+  border-radius:28px!important;
+  box-shadow:0 8px 0 rgba(4,47,46,.45)!important;
+  transition:all .22s ease!important;
+}
+#por-que-elegirnos .bg-slate-800\/80:hover{
+  transform:translateY(-5px) rotate(-.6deg);
+  border-color:#6ee7b7!important;
+  background:rgba(255,255,255,.15)!important;
+}
+
+/* Pasos de solicitud estilo ruta creativa */
+#como-solicitar .grid>div{
+  border-radius:28px!important;
+  background:white!important;
+  border:2px solid #7dd3fc!important;
+  box-shadow:0 7px 0 #bae6fd, 0 12px 26px rgba(2,132,199,.07)!important;
+  transition:all .22s cubic-bezier(.34,1.56,.64,1)!important;
+}
+#como-solicitar .grid>div:hover{
+  transform:translateY(-6px) rotate(1deg);
+  border-color:#10b981!important;
+  box-shadow:0 10px 0 #a7f3d0, 0 18px 32px rgba(16,185,129,.16)!important;
+}
+
+/* Formulario estilo ficha de taller */
+#cotizar form{
+  border-radius:32px!important;
+  border:2.5px solid #0284c7!important;
+  box-shadow:0 10px 0 #bae6fd, 0 30px 65px rgba(2,132,199,.12)!important;
+}
+#cotizar input, #cotizar select, #cotizar textarea{
+  border-width:2px!important;
+  border-radius:16px!important;
+}
+#cotizar button[type="submit"]{
+  border-radius:20px!important;
+  font-family:var(--font-display);
+  border:2px solid #15803d;
+  box-shadow:0 6px 0 #15803d, 0 14px 28px rgba(22,163,74,.25)!important;
+  transition:all .18s ease!important;
+}
+#cotizar button[type="submit"]:hover{transform:translateY(-2px)}
+#cotizar button[type="submit"]:active{transform:translateY(3px);box-shadow:0 2px 0 #15803d!important}
+
+#contacto .bg-slate-900{
+  background:linear-gradient(135deg,#082f49 0%,#0369a1 50%,#047857 100%)!important;
+  border-radius:32px!important;
+  border:3px solid #38bdf8!important;
+  box-shadow:0 10px 0 #bae6fd, 0 24px 55px rgba(3,105,161,.25)!important;
+}
+footer{background:#041e30!important}
+
+@media(max-width:980px){
+  .hero-container{padding:50px 26px 65px;grid-template-columns:1fr}
+  .hero-copy{text-align:center}
+  .hero-copy h1,.hero-sub{margin-left:auto;margin-right:auto}
+  .hero-cta,.hero-small-proof{justify-content:center}
+  .hero-art{max-width:660px;width:100%;margin:0 auto}
+  .hero-art-panel{height:500px}
+  .portfolio-feature{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  .announcement-bar{font-size:9.5px;gap:8px}
+  .hero-container{padding:40px 18px 52px;gap:24px}
+  .hero-copy h1{font-size:clamp(38px,11vw,56px)}
+  .hero-sub{font-size:15.5px}
+  .hero-cta{flex-direction:column;align-items:stretch}
+  .cta-main,.cta-secondary{width:100%}
+  .hero-art-panel{height:365px}
+  .diorama{width:100%;top:0;left:0}
+  .floating-card{min-width:160px;padding:9px 11px}
+  .floating-card strong{font-size:11px}
+  .floating-card small{font-size:9.5px}
+  .card-symbol{width:30px;height:30px;font-size:17px}
+  .mini-stamp{display:none}
+  .hero-bottom-line{gap:8px;padding:14px 10px}
+  .hero-bottom-line span{font-size:10px;padding:5px 11px}
+  .portfolio-feature{grid-template-columns:1fr}
+  .portfolio-text{padding:32px 24px}
+  .portfolio-illustration{height:165px}
+  #servicios{padding-top:60px!important}
+  #services-grid article>div:first-child{height:215px!important}
+}
+@media(prefers-reduced-motion:reduce){.diorama,.hero-art-panel{animation:none}*{scroll-behavior:auto!important}}
 </style>
 </head>
-<body class="bg-paper text-slate-800 font-sans antialiased selection:bg-amber-200 selection:text-slate-900 overflow-x-hidden">
-<!-- =====================================================================
+<body class="bg-paper text-slate-800 font-sans antialiased selection:bg-sky-200 selection:text-slate-900 overflow-x-hidden">
        BARRA DE NAVEGACIÓN PRINCIPAL (STICKY & RESPONSIVE)
        ===================================================================== -->
 <div class="announcement-bar"><span>MAQUETAS ESCOLARES Y UNIVERSITARIAS EN SANTA CRUZ</span><a href="https://wa.me/59162161402?text=Hola%2C%20quisiera%20cotizar%20una%20maqueta" rel="noopener noreferrer" target="_blank">Hablemos de tu proyecto ↗</a></div><header class="sticky top-0 z-40 w-full bg-white/90 backdrop-blur-md border-b border-slate-200/80 transition-shadow duration-300" id="navbar">
@@ -107,12 +596,92 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <div class="flex items-center justify-between h-16 sm:h-20">
 <!-- Logotipo / Marca MI MAQUETITA 3D -->
 <a class="flex items-center gap-3 group focus:outline-none" href="#inicio">
-<div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-slate-900 text-amber-400 flex items-center justify-center shadow-sm group-hover:bg-amber-600 group-hover:text-white transition-colors duration-300">
-<!-- Icono SVG Isométrico 3D (Modelismo / Arquitectura) -->
-<svg aria-hidden="true" class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
-<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-<polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-<line x1="12" x2="12" y1="22.08" y2="12"></line>
+<div class="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-white border border-sky-200 p-0.5 flex items-center justify-center shadow-sm group-hover:scale-105 group-hover:border-sky-400 transition-all duration-300 overflow-hidden shrink-0">
+<!-- Imagen del logo si existe archivo local 'logo.png', con respaldo vectorial exacto del logotipo -->
+<img alt="Logo Mi Maquetita 3D" class="w-full h-full object-contain" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" src="logo.png"/>
+<svg aria-label="Logo Mi Maquetita 3D" class="w-full h-full hidden" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<circle cx="200" cy="200" fill="#FFFDF9" r="196"></circle>
+<!-- Techo azul y chimenea -->
+<path d="M36 144 L188 30 L364 144" fill="none" stroke="#0284C7" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"></path>
+<path d="M42 140 L188 36 L358 140" fill="none" opacity="0.7" stroke="#38BDF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"></path>
+<rect fill="#0284C7" height="52" rx="4" width="34" x="278" y="42"></rect>
+<rect fill="#0EA5E9" height="11" rx="4" width="44" x="273" y="38"></rect>
+<!-- Ondas Wi-Fi -->
+<g fill="none" stroke="#0EA5E9" stroke-linecap="round" transform="translate(88, 118) rotate(-28)">
+<path d="M-32 -22 A42 42 0 0 1 32 -22" stroke-width="7"></path>
+<path d="M-21 -11 A28 28 0 0 1 21 -11" stroke-width="7"></path>
+<path d="M-11 -1 A15 15 0 0 1 11 -1" stroke-width="7"></path>
+<circle cx="0" cy="9" fill="#0284C7" r="5" stroke="none"></circle>
+</g>
+<!-- Megáfono amarillo -->
+<g transform="translate(322, 86) rotate(-22)">
+<path d="M-10 8 L-6 24 L4 22 L0 6 Z" fill="#0F172A"></path>
+<path d="M-24 -6 L18 -20 L18 20 L-24 6 Z" fill="#FACC15" stroke="#D97706" stroke-width="2"></path>
+<rect fill="#0F172A" height="14" rx="3" width="8" x="-28" y="-7"></rect>
+<ellipse cx="18" cy="0" fill="#F59E0B" rx="5" ry="20"></ellipse>
+<line stroke="#FACC15" stroke-linecap="round" stroke-width="4" x1="27" x2="38" y1="-10" y2="-16"></line>
+<line stroke="#FACC15" stroke-linecap="round" stroke-width="4" x1="29" x2="42" y1="0" y2="0"></line>
+<line stroke="#FACC15" stroke-linecap="round" stroke-width="4" x1="27" x2="38" y1="10" y2="16"></line>
+</g>
+<!-- Maqueta 3D de casa moderna -->
+<g transform="translate(115, 58)">
+<polygon fill="#22C55E" points="15,82 95,52 175,84 95,116"></polygon>
+<polygon fill="#B45309" points="15,82 95,116 95,127 15,92"></polygon>
+<polygon fill="#D97706" points="95,116 175,84 175,95 95,127"></polygon>
+<polygon fill="#1E293B" points="75,108 155,76 172,83 92,115"></polygon>
+<line stroke="#F8FAFC" stroke-dasharray="6,5" stroke-width="2" x1="90" x2="156" y1="107" y2="81"></line>
+<polygon fill="#E2E8F0" points="52,74 92,58 92,86 52,102"></polygon>
+<polygon fill="#F8FAFC" points="92,58 134,74 134,102 92,86"></polygon>
+<polygon fill="#CBD5E1" points="68,44 104,30 104,58 68,72"></polygon>
+<polygon fill="#FFFFFF" points="104,30 132,42 132,68 104,58"></polygon>
+<polygon fill="#0F172A" points="64,43 104,27 136,40 96,56"></polygon>
+<polygon fill="#D97706" points="72,48 86,43 86,65 72,70"></polygon>
+<polygon fill="#334155" points="108,37 126,44 126,62 108,55"></polygon>
+<polygon fill="#334155" points="97,66 124,76 124,96 97,86"></polygon>
+<circle cx="42" cy="72" fill="#15803D" r="13"></circle>
+<circle cx="46" cy="67" fill="#4ADE80" r="9"></circle>
+<circle cx="144" cy="66" fill="#15803D" r="11"></circle>
+<circle cx="141" cy="62" fill="#4ADE80" r="7"></circle>
+</g>
+<!-- Laptop con gráfica -->
+<g transform="translate(22, 165) rotate(-14)">
+<rect fill="#0F172A" height="44" rx="5" width="66" x="6" y="4"></rect>
+<rect fill="#F0F9FF" height="36" rx="2" width="58" x="10" y="8"></rect>
+<rect fill="#0284C7" height="10" width="7" x="17" y="30"></rect>
+<rect fill="#06B6D4" height="15" width="7" x="27" y="25"></rect>
+<rect fill="#22C55E" height="20" width="7" x="37" y="20"></rect>
+<rect fill="#FACC15" height="26" width="7" x="47" y="14"></rect>
+<path d="M16 26 L32 20 L48 11" fill="none" stroke="#0F172A" stroke-linecap="round" stroke-width="2.5"></path>
+<polygon fill="#0F172A" points="48,11 41,11 47,17"></polygon>
+<polygon fill="#334155" points="0,48 78,48 72,56 6,56"></polygon>
+</g>
+<!-- Red de iconos sociales -->
+<g>
+<polyline fill="none" points="295,180 326,162 356,192 342,236 364,274 326,262" stroke="#0EA5E9" stroke-width="2.5"></polyline>
+<circle cx="326" cy="162" fill="#EC4899" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<rect fill="none" height="14" rx="4" stroke="#FFFFFF" stroke-width="2" width="14" x="319" y="155"></rect>
+<circle cx="356" cy="192" fill="#0284C7" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<text fill="#FFFFFF" font-family="sans-serif" font-size="18" font-weight="800" text-anchor="middle" x="356" y="198">f</text>
+<circle cx="342" cy="236" fill="#22C55E" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<circle cx="342" cy="236" fill="none" r="7" stroke="#FFFFFF" stroke-width="2.2"></circle>
+<circle cx="364" cy="274" fill="#0F172A" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<path d="M362 267 v11 a4 4 0 1 1 -3 -3.8" fill="none" stroke="#22D3EE" stroke-linecap="round" stroke-width="2.5"></path>
+</g>
+<!-- Texto principal Mi Maquetita 3D -->
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="44" font-style="italic" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="8" text-anchor="middle" x="195" y="185">Mi</text>
+<path d="M214 148 c-3-4 -9-2 -9 3 c0 4 9 9 9 9 s9-5 9-9 c0-5 -6-7 -9-3z" fill="#FACC15"></path>
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="43" font-style="italic" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="8" text-anchor="middle" x="198" y="230">Maquetita</text>
+<path d="M115 248 Q198 232 282 248" fill="none" stroke="#06B6D4" stroke-linecap="round" stroke-width="5"></path>
+<text fill="#D97706" font-family="'Inter', sans-serif" font-size="56" font-weight="900" text-anchor="middle" x="166" y="295">3</text>
+<text fill="#FACC15" font-family="'Inter', sans-serif" font-size="56" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" text-anchor="middle" x="163" y="292">3</text>
+<text fill="#0284C7" font-family="'Inter', sans-serif" font-size="56" font-weight="900" text-anchor="middle" x="228" y="295">D</text>
+<text fill="#22D3EE" font-family="'Inter', sans-serif" font-size="56" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" text-anchor="middle" x="225" y="292">D</text>
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="200" y="317">Transformamos tus ideas en maquetas</text>
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="200" y="331">creativas que dan vida a tu imaginación.</text>
+<path d="M32 205 C32 330 120 382 215 380" fill="none" stroke="#0284C7" stroke-linecap="round" stroke-width="11"></path>
+<path d="M215 380 C285 378 335 342 356 294" fill="none" stroke="#F59E0B" stroke-linecap="round" stroke-width="11"></path>
+<path d="M122 355 Q195 335 282 352 Q215 352 122 355 Z" fill="#0284C7"></path>
+<path d="M138 366 Q215 348 292 362 Q225 368 138 366 Z" fill="#F59E0B"></path>
 </svg>
 </div>
 <div class="flex flex-col">
@@ -179,43 +748,300 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <div class="hero-ambient orb-one"></div><div class="hero-ambient orb-two"></div>
 <div class="hero-container">
 <div class="hero-copy">
-<div class="eyebrow"><span class="eyebrow-dot"></span> HECHO A MEDIDA EN SANTA CRUZ, BOLIVIA</div>
+<div class="eyebrow"><span class="eyebrow-dot"></span> TALLER CREATIVO EN SANTA CRUZ, BOLIVIA</div>
 <h1>Tu idea merece <em>tomar forma.</em></h1>
-<p class="hero-sub">Creamos maquetas escolares y universitarias que convierten tus ideas en proyectos para mostrar, explicar y recordar.</p>
+<p class="hero-sub">Creamos maquetas escolares y universitarias llenas de detalle que convierten tus ideas en proyectos para mostrar, explicar y recordar.</p>
 <div class="hero-cta"><a class="cta-main" href="#cotizar">Cotiza tu maqueta <span aria-hidden="true">↗</span></a><a class="cta-secondary" href="#galeria">Explorar proyectos <span aria-hidden="true">→</span></a></div>
 <div class="hero-small-proof"><div class="proof-avatars"><span>3D</span><span>✦</span><span>✓</span></div><p><strong>Maquetas personalizadas</strong><br/>De la idea al proyecto, contigo.</p></div>
 </div>
-<div aria-label="Ilustración conceptual de maquetas educativas en tres dimensiones" class="hero-art" role="img">
+<div aria-label="Maqueta artesanal de célula eucariota en 3D" class="hero-art" role="img">
 <div class="hero-art-panel">
 <div class="floating-card card-top"><span class="card-symbol">✦</span><span><strong>Tu proyecto, a tu medida</strong><small>Escolar · Universitario</small></span></div>
 <svg aria-hidden="true" class="diorama" viewbox="0 0 650 600" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<lineargradient id="baseFront" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e7dbcc"></stop><stop offset="1" stop-color="#bca997"></stop></lineargradient>
-<lineargradient id="mount" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#eda177"></stop><stop offset="1" stop-color="#a84b31"></stop></lineargradient>
-<lineargradient id="topBase" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e9e5ce"></stop><stop offset="1" stop-color="#9ec7a9"></stop></lineargradient>
-<filter id="sh"><fedropshadow dx="0" dy="24" flood-color="#412a1c" flood-opacity="0.18" stddeviation="20"></fedropshadow></filter>
+<!-- Degradados escultóricos 3D de la célula en vista frontal -->
+<lineargradient id="coneGrad" x1="0.2" x2="0.8" y1="0" y2="1">
+<stop offset="0%" stop-color="#bae6fd"></stop>
+<stop offset="50%" stop-color="#38bdf8"></stop>
+<stop offset="100%" stop-color="#0284c7"></stop>
+</lineargradient>
+<lineargradient id="outerMembrane" x1="0" x2="1" y1="0" y2="1">
+<stop offset="0%" stop-color="#7dd3fc"></stop>
+<stop offset="50%" stop-color="#0284c7"></stop>
+<stop offset="100%" stop-color="#0369a1"></stop>
+</lineargradient>
+<lineargradient id="backWallCyto" x1="0.5" x2="0.5" y1="0" y2="1">
+<stop offset="0%" stop-color="#f0f9ff"></stop>
+<stop offset="55%" stop-color="#bae6fd"></stop>
+<stop offset="100%" stop-color="#7dd3fc"></stop>
+</lineargradient>
+<radialgradient cx="50%" cy="46%" id="floorCyto" r="60%">
+<stop offset="0%" stop-color="#e0f2fe"></stop>
+<stop offset="68%" stop-color="#bae6fd"></stop>
+<stop offset="100%" stop-color="#7dd3fc"></stop>
+</radialgradient>
+<lineargradient id="rimLip" x1="0" x2="1" y1="0" y2="1">
+<stop offset="0%" stop-color="#e0f2fe"></stop>
+<stop offset="50%" stop-color="#38bdf8"></stop>
+<stop offset="100%" stop-color="#0369a1"></stop>
+</lineargradient>
+<radialgradient cx="36%" cy="30%" id="nucRight" r="68%">
+<stop offset="0%" stop-color="#e0f2fe"></stop>
+<stop offset="52%" stop-color="#38bdf8"></stop>
+<stop offset="100%" stop-color="#0284c7"></stop>
+</radialgradient>
+<radialgradient cx="42%" cy="35%" id="nucLeft" r="65%">
+<stop offset="0%" stop-color="#1d4ed8"></stop>
+<stop offset="70%" stop-color="#1e3a8a"></stop>
+<stop offset="100%" stop-color="#082f49"></stop>
+</radialgradient>
+<lineargradient id="greenGolgi" x1="0" x2="1" y1="0" y2="1">
+<stop offset="0%" stop-color="#6ee7b7"></stop>
+<stop offset="50%" stop-color="#10b981"></stop>
+<stop offset="100%" stop-color="#047857"></stop>
+</lineargradient>
+<lineargradient id="cobaltRibbon" x1="0" x2="1" y1="0" y2="1">
+<stop offset="0%" stop-color="#3b82f6"></stop>
+<stop offset="55%" stop-color="#1d4ed8"></stop>
+<stop offset="100%" stop-color="#1e3a8a"></stop>
+</lineargradient>
+<lineargradient id="mitoShell" x1="0" x2="1" y1="0" y2="1">
+<stop offset="0%" stop-color="#fdba74"></stop>
+<stop offset="60%" stop-color="#fb923c"></stop>
+<stop offset="100%" stop-color="#ea580c"></stop>
+</lineargradient>
+<filter id="softClay">
+<fedropshadow dx="0" dy="5" flood-color="#082f49" flood-opacity="0.22" stddeviation="4.5"></fedropshadow>
+</filter>
+<filter id="cellFloatShadow">
+<fedropshadow dx="0" dy="22" flood-color="#082f49" flood-opacity="0.24" stddeviation="16"></fedropshadow>
+</filter>
 </defs>
-<ellipse cx="322" cy="487" fill="#9c8170" opacity=".13" rx="238" ry="48"></ellipse>
-<g filter="url(#sh)"><path d="M78 330L330 210L574 327L322 456Z" fill="url(#topBase)" stroke="#fff" stroke-width="7"></path><path d="M78 330V372L322 502V456Z" fill="url(#baseFront)"></path><path d="M322 456L574 327V369L322 502Z" fill="#a89583"></path></g>
-<path d="M130 333L334 235L520 326L317 428Z" fill="#b5caa8" opacity=".8"></path>
-<path d="M176 343Q292 338 369 288Q405 278 449 318" fill="none" opacity=".8" stroke="#f3efda" stroke-width="18"></path>
-<path d="M236 336L320 139L402 333Q322 396 236 336Z" fill="url(#mount)" stroke="#844b3c" stroke-width="3"></path>
-<path d="M320 139L285 218L306 212L316 238L334 212L353 221Z" fill="#f4d4b4"></path>
-<ellipse cx="320" cy="145" fill="#874638" rx="33" ry="12"></ellipse>
-<ellipse cx="320" cy="145" fill="#e99561" rx="19" ry="6"></ellipse>
-<path d="M308 145Q288 106 309 81Q328 53 315 30" fill="none" opacity=".7" stroke="#e6d5cc" stroke-linecap="round" stroke-width="18"></path>
-<path d="M332 141Q352 112 343 87" fill="none" opacity=".55" stroke="#e6d5cc" stroke-linecap="round" stroke-width="13"></path>
-<path d="M322 161Q340 193 345 240Q360 275 392 320" fill="none" stroke="#ffb05d" stroke-linecap="round" stroke-width="11"></path>
-<g><path d="M150 325V264" stroke="#785b45" stroke-width="10"></path><ellipse cx="151" cy="259" fill="#397961" rx="30" ry="37"></ellipse><ellipse cx="135" cy="270" fill="#4b9977" rx="20" ry="21"></ellipse><path d="M460 349V281" stroke="#785b45" stroke-width="10"></path><ellipse cx="460" cy="275" fill="#438367" rx="34" ry="41"></ellipse><ellipse cx="480" cy="286" fill="#5a9e75" rx="20" ry="24"></ellipse><path d="M510 345V297" stroke="#785b45" stroke-width="8"></path><ellipse cx="510" cy="294" fill="#488365" rx="22" ry="28"></ellipse></g>
-<g><rect fill="#fff9ef" height="35" rx="8" transform="skewY(27)" width="91" x="108" y="371"></rect><text fill="#8a5036" font-family="sans-serif" font-size="14" font-weight="800" transform="rotate(25 120 410)" x="120" y="410">VOLCÁN 3D</text></g>
-<g opacity=".9"><circle cx="472" cy="170" fill="#fff" r="28"></circle><path d="M458 170h28M472 156v28" stroke="#d76c4d" stroke-linecap="round" stroke-width="5"></path></g>
+
+<!-- Sombra ambiental centrada debajo de la célula vista de frente -->
+<ellipse cx="325" cy="534" fill="#0369a1" opacity=".20" rx="190" ry="26"></ellipse>
+
+<!-- Grupo principal: CÉLULA EN 3D EN VISTA FRONTAL -->
+<g filter="url(#cellFloatShadow)">
+<!-- Abanico frontal simétrico de proyecciones cónicas (microvellosidades) -->
+<path d="M122 224 C112 178 96 130 98 106 C100 98 108 99 116 111 C134 138 154 176 168 202 Z" fill="url(#coneGrad)"></path>
+<path d="M186 190 C182 142 178 88 184 64 C187 56 194 57 199 70 C210 100 220 144 228 176 Z" fill="url(#coneGrad)"></path>
+<path d="M254 172 C258 124 264 72 272 48 C276 40 283 41 286 54 C292 86 296 130 298 164 Z" fill="url(#coneGrad)"></path>
+<path d="M312 166 C318 118 322 66 325 42 C328 42 332 66 338 118 L340 166 Z" fill="url(#coneGrad)"></path>
+<path d="M352 164 C354 130 358 86 364 54 C367 41 374 40 378 48 C386 72 392 124 396 172 Z" fill="url(#coneGrad)"></path>
+<path d="M422 176 C430 144 440 100 451 70 C456 57 463 56 466 64 C472 88 468 142 464 190 Z" fill="url(#coneGrad)"></path>
+<path d="M482 202 C496 176 516 138 534 111 C542 99 550 98 552 106 C554 130 538 178 528 224 Z" fill="url(#coneGrad)"></path>
+
+<!-- Cúpula superior exterior de la membrana (vista frontal) -->
+<path d="M90 286 C104 194 198 154 325 154 C452 154 546 194 560 286 L544 316 C524 234 434 192 325 192 C216 192 126 234 106 316 Z" fill="url(#outerMembrane)"></path>
+
+<!-- Base frontal exterior del hemisferio inferior (da volumen 3D al mirarlo de frente) -->
+<path d="M90 286 C86 414 186 512 325 512 C464 512 564 414 560 286 L544 316 C546 416 454 486 325 486 C196 486 104 416 106 316 Z" fill="url(#outerMembrane)"></path>
+
+<!-- Pared trasera vertical del corte frontal (muestra todo el interior de frente) -->
+<path d="M104 316 C116 218 208 176 325 176 C442 176 534 218 546 316 C468 334 182 334 104 316 Z" fill="url(#backWallCyto)"></path>
+
+<!-- Plataforma frontal inferior del corte (citoplasma horizontal) -->
+<path d="M104 316 C182 334 468 334 546 316 C548 416 454 486 325 486 C196 486 102 416 104 316 Z" fill="url(#floorCyto)"></path>
+
+<!-- Sombra suave en el pliegue de unión entre la pared frontal y la terraza inferior -->
+<path d="M112 316 Q325 336 538 316" fill="none" opacity=".28" stroke="#0284c7" stroke-linecap="round" stroke-width="9"></path>
+
+<!-- Borde grueso de la membrana plasmática cortada (marco frontal) -->
+<path d="M98 302 C112 204 206 166 325 166 C444 166 538 204 552 302" fill="none" stroke="url(#rimLip)" stroke-linecap="round" stroke-width="13"></path>
+<path d="M104 314 C118 216 208 178 325 178 C442 178 532 216 546 314" fill="none" stroke="#e0f2fe" stroke-linecap="round" stroke-width="5"></path>
+<path d="M98 306 C96 416 194 492 325 492 C456 492 554 416 552 306" fill="none" stroke="url(#rimLip)" stroke-linecap="round" stroke-width="12"></path>
+<path d="M106 316 C104 412 198 484 325 484 C452 484 546 412 544 316" fill="none" stroke="#bae6fd" stroke-linecap="round" stroke-width="4.5"></path>
+
+<!-- ================= ORGANELOS DE LA PARED FRONTAL SUPERIOR ================= -->
+
+<!-- 1. Aparato de Golgi / Sacos Verdes (Izquierda pared frontal) -->
+<g filter="url(#softClay)">
+<rect fill="url(#greenGolgi)" height="64" rx="10" width="22" x="114" y="238"></rect>
+<rect fill="url(#greenGolgi)" height="72" rx="10" width="23" x="134" y="230"></rect>
+<rect fill="url(#greenGolgi)" height="70" rx="10" width="23" x="155" y="232"></rect>
+<rect fill="url(#greenGolgi)" height="62" rx="10" width="22" x="176" y="240"></rect>
+<path d="M120 298 C132 312 152 312 164 300 C174 312 190 310 196 296" fill="none" stroke="#059669" stroke-linecap="round" stroke-width="7"></path>
+<path d="M126 306 C141 316 161 316 182 306" fill="none" stroke="#34d399" stroke-linecap="round" stroke-width="5"></path>
+</g>
+
+<!-- 2. Retículo Endoplasmático Azul Oscuro debajo de la mitocondria superior -->
+<g filter="url(#softClay)">
+<path d="M220 242 C252 236 288 238 318 248 C302 260 258 260 222 254 Z" fill="#1e3a8a"></path>
+<path d="M218 256 C254 252 292 254 322 264 C302 274 256 274 220 268 Z" fill="#1d4ed8"></path>
+<path d="M224 270 C254 268 282 270 304 278 C286 286 251 286 226 280 Z" fill="#082f49"></path>
+</g>
+
+<!-- 3. Mitocondria Superior Central + Esfera Verde encima -->
+<g filter="url(#softClay)">
+<g transform="translate(242, 192) rotate(4)">
+<rect fill="url(#mitoShell)" height="38" rx="19" width="104" x="0" y="0"></rect>
+<rect fill="#fed7aa" height="24" rx="12" width="88" x="8" y="7"></rect>
+<path d="M15 19 C22 10 28 28 35 19 C42 10 48 28 55 19 C62 10 68 28 75 19 C81 12 85 24 91 19" fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-width="5.5"></path>
+</g>
+<circle cx="298" cy="188" fill="#10b981" r="14"></circle>
+<circle cx="293" cy="183" fill="#a7f3d0" opacity=".85" r="4.5"></circle>
+</g>
+
+<!-- 4. Estructuras Plegadas Azul Cobalto (Derecha pared frontal) -->
+<g filter="url(#softClay)">
+<path d="M372 204 C394 194 426 198 438 214 C446 226 430 240 406 238 C384 236 366 224 372 204 Z" fill="url(#cobaltRibbon)"></path>
+<path d="M382 215 C398 209 418 211 426 220" fill="none" stroke="#93c5fd" stroke-linecap="round" stroke-width="3.5"></path>
+<path d="M390 246 C416 238 450 244 458 262 C464 278 446 294 418 290 C396 286 382 268 390 246 Z" fill="url(#cobaltRibbon)"></path>
+<path d="M400 260 C418 254 438 258 446 268" fill="none" stroke="#93c5fd" stroke-linecap="round" stroke-width="3.5"></path>
+</g>
+
+<!-- 5. Esfera verde y anillos en extremo derecho de pared frontal -->
+<g filter="url(#softClay)">
+<circle cx="496" cy="256" fill="#10b981" r="13"></circle>
+<circle cx="492" cy="252" fill="#a7f3d0" opacity=".8" r="4"></circle>
+<ellipse cx="482" cy="288" fill="none" rx="15" ry="8" stroke="#059669" stroke-width="4.5"></ellipse>
+<circle cx="477" cy="288" fill="#082f49" r="2.5"></circle>
+<circle cx="487" cy="288" fill="#082f49" r="2.5"></circle>
+</g>
+
+<!-- ================= NÚCLEO CENTRAL 3D EN VISTA FRONTAL ================= -->
+<g filter="url(#softClay)">
+<!-- Mitad izquierda cortada en azul marino/rey vista de frente -->
+<path d="M332 254 C288 254 258 286 258 326 C258 366 290 392 332 392 Z" fill="url(#nucLeft)"></path>
+<!-- Hemisferio derecho celeste con poros nucleares -->
+<path d="M325 254 C370 254 398 286 398 326 C398 366 370 392 325 392 C312 362 312 286 325 254 Z" fill="url(#nucRight)"></path>
+<!-- Poros nucleares azul intenso -->
+<circle cx="338" cy="276" fill="#1d4ed8" r="5.5"></circle>
+<circle cx="364" cy="280" fill="#1d4ed8" r="6"></circle>
+<circle cx="348" cy="300" fill="#1d4ed8" r="6.5"></circle>
+<circle cx="378" cy="306" fill="#1d4ed8" r="5.5"></circle>
+<circle cx="334" cy="326" fill="#1d4ed8" r="6"></circle>
+<circle cx="364" cy="330" fill="#1d4ed8" r="6.5"></circle>
+<circle cx="386" cy="338" fill="#1d4ed8" r="5"></circle>
+<circle cx="344" cy="356" fill="#1d4ed8" r="6"></circle>
+<circle cx="372" cy="360" fill="#1d4ed8" r="5.5"></circle>
+<circle cx="332" cy="378" fill="#1d4ed8" r="5"></circle>
+</g>
+
+<!-- ================= ORGANELOS DE LA TERRAZA FRONTAL INFERIOR ================= -->
+
+<!-- Discos/centriolos pequeños izquierda -->
+<g filter="url(#softClay)">
+<ellipse cx="144" cy="332" fill="#7dd3fc" rx="14" ry="8" stroke="#0284c7" stroke-width="3"></ellipse>
+<circle cx="140" cy="332" fill="#082f49" r="2.2"></circle>
+<circle cx="148" cy="332" fill="#082f49" r="2.2"></circle>
+<ellipse cx="192" cy="336" fill="#7dd3fc" rx="15" ry="8.5" stroke="#0284c7" stroke-width="3.5"></ellipse>
+<circle cx="187" cy="335" fill="#082f49" r="2.5"></circle>
+<circle cx="196" cy="336" fill="#082f49" r="2.5"></circle>
+</g>
+
+<!-- Mitocondria Izquierda -->
+<g filter="url(#softClay)">
+<g transform="translate(154, 348) rotate(62)">
+<rect fill="url(#mitoShell)" height="36" rx="18" width="80" x="0" y="0"></rect>
+<rect fill="#fed7aa" height="22" rx="11" width="66" x="7" y="7"></rect>
+<path d="M13 18 C19 9 25 27 31 18 C37 9 43 27 49 18 C55 9 60 25 65 18" fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-width="5"></path>
+</g>
+</g>
+
+<!-- Gran Retículo / Golgi Azul Rey (Centro-izquierda frontal) -->
+<g filter="url(#softClay)">
+<g transform="translate(226, 344) rotate(36)">
+<rect fill="url(#cobaltRibbon)" height="14" rx="7" width="112" x="0" y="0"></rect>
+<rect fill="url(#cobaltRibbon)" height="15" rx="7.5" width="122" x="-6" y="13"></rect>
+<rect fill="url(#cobaltRibbon)" height="15" rx="7.5" width="116" x="2" y="27"></rect>
+<rect fill="url(#cobaltRibbon)" height="13" rx="6.5" width="90" x="14" y="41"></rect>
+<line stroke="#60a5fa" stroke-linecap="round" stroke-width="2.5" x1="12" x2="98" y1="6" y2="6"></line>
+<line stroke="#60a5fa" stroke-linecap="round" stroke-width="2.5" x1="8" x2="106" y1="19" y2="19"></line>
+<line stroke="#60a5fa" stroke-linecap="round" stroke-width="2.5" x1="14" x2="104" y1="33" y2="33"></line>
+</g>
+</g>
+
+<!-- Dos Estructuras Plegadas Azul Medio/Cobalto (Centro-derecha frontal) -->
+<g filter="url(#softClay)">
+<g transform="translate(332, 404) rotate(-22)">
+<rect fill="#0284c7" height="11" rx="5.5" width="72" x="0" y="0"></rect>
+<rect fill="#38bdf8" height="12" rx="6" width="82" x="-4" y="10"></rect>
+<rect fill="#0284c7" height="11" rx="5.5" width="74" x="4" y="21"></rect>
+</g>
+<g transform="translate(336, 434) rotate(-14)">
+<rect fill="url(#cobaltRibbon)" height="13" rx="6.5" width="88" x="0" y="0"></rect>
+<rect fill="url(#cobaltRibbon)" height="14" rx="7" width="98" x="-5" y="12"></rect>
+<line stroke="#93c5fd" stroke-linecap="round" stroke-width="2.5" x1="10" x2="80" y1="17" y2="17"></line>
+</g>
+</g>
+
+<!-- Mitocondria Derecha + anillo lateral -->
+<g filter="url(#softClay)">
+<g transform="translate(474, 344) rotate(118)">
+<rect fill="url(#mitoShell)" height="36" rx="18" width="82" x="0" y="0"></rect>
+<rect fill="#fed7aa" height="22" rx="11" width="68" x="7" y="7"></rect>
+<path d="M13 18 C19 9 25 27 31 18 C37 9 43 27 49 18 C55 9 61 25 66 18" fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-width="5"></path>
+</g>
+<ellipse cx="514" cy="336" fill="none" rx="14" ry="8" stroke="#0284c7" stroke-width="4"></ellipse>
+<circle cx="514" cy="336" fill="#082f49" r="3"></circle>
+</g>
+
+<!-- Centrosoma / Vacuola Pastel (Abajo derecha) -->
+<g filter="url(#softClay)">
+<ellipse cx="458" cy="422" fill="#fed7aa" rx="40" ry="26" stroke="#fdba74" stroke-width="2"></ellipse>
+<g transform="translate(437, 408) rotate(12)">
+<rect fill="#fbcfe8" height="22" rx="10" stroke="#f9a8d4" stroke-width="1.5" width="42" x="0" y="0"></rect>
+<line stroke="#ffffff" stroke-linecap="round" stroke-width="4" x1="8" x2="34" y1="7" y2="7"></line>
+<line stroke="#f472b6" opacity=".45" stroke-linecap="round" stroke-width="2.5" x1="8" x2="34" y1="14" y2="14"></line>
+</g>
+</g>
+
+<!-- Mitocondria Inferior Horizontal (Vista frontal directa) -->
+<g filter="url(#softClay)">
+<g transform="translate(278, 444)">
+<rect fill="url(#mitoShell)" height="34" rx="17" width="96" x="0" y="0"></rect>
+<rect fill="#fed7aa" height="20" rx="10" width="82" x="7" y="7"></rect>
+<path d="M14 17 C20 9 26 25 32 17 C38 9 44 25 50 17 C56 9 62 25 68 17 C74 11 78 21 83 17" fill="none" stroke="#f59e0b" stroke-linecap="round" stroke-width="5"></path>
+</g>
+</g>
+
+<!-- Esferas Verdes (Lisosomas izquierda) -->
+<g filter="url(#softClay)">
+<circle cx="222" cy="404" fill="#10b981" r="11.5"></circle>
+<circle cx="218" cy="400" fill="#a7f3d0" opacity=".85" r="3.6"></circle>
+<circle cx="188" cy="424" fill="#10b981" r="12"></circle>
+<circle cx="184" cy="420" fill="#a7f3d0" opacity=".85" r="3.8"></circle>
+</g>
+
+<!-- Esferas Coral / Rojas (Ribosomas grandes) -->
+<g filter="url(#softClay)">
+<circle cx="268" cy="428" fill="#f43f5e" r="10.5"></circle>
+<circle cx="264" cy="424" fill="#fecdd3" opacity=".8" r="3.2"></circle>
+<circle cx="246" cy="452" fill="#f43f5e" r="11"></circle>
+<circle cx="242" cy="448" fill="#fecdd3" opacity=".8" r="3.4"></circle>
+<circle cx="496" cy="382" fill="#f43f5e" r="10"></circle>
+<circle cx="493" cy="379" fill="#fecdd3" opacity=".8" r="3"></circle>
+<circle cx="508" cy="408" fill="#f43f5e" r="10.5"></circle>
+<circle cx="504" cy="404" fill="#fecdd3" opacity=".8" r="3.2"></circle>
+</g>
+
+<!-- Ribosomas puntuales azules y filamentos del citoesqueleto -->
+<g>
+<circle cx="152" cy="222" fill="#1d4ed8" r="3.5"></circle>
+<circle cx="212" cy="214" fill="#1d4ed8" r="4.5"></circle>
+<circle cx="456" cy="224" fill="#1d4ed8" r="3.5"></circle>
+<circle cx="516" cy="268" fill="#1d4ed8" r="4"></circle>
+<circle cx="144" cy="422" fill="#0284c7" r="4.5"></circle>
+<circle cx="214" cy="374" fill="#1d4ed8" r="4"></circle>
+<circle cx="412" cy="346" fill="#1d4ed8" r="3.5"></circle>
+<circle cx="476" cy="374" fill="#1d4ed8" r="3.5"></circle>
+<circle cx="418" cy="462" fill="#0284c7" r="4"></circle>
+<path d="M164 224 C182 216 196 228 212 220" fill="none" stroke="#fce7f3" stroke-linecap="round" stroke-width="2.5"></path>
+<path d="M454 218 C470 210 484 222 500 214" fill="none" stroke="#fce7f3" stroke-linecap="round" stroke-width="2.5"></path>
+<path d="M166 436 C184 444 178 456 196 460 C208 462 214 452 226 458" fill="none" stroke="#fce7f3" stroke-linecap="round" stroke-width="2.5"></path>
+<path d="M402 444 C392 456 396 470 412 474" fill="none" stroke="#fce7f3" stroke-linecap="round" stroke-width="2.5"></path>
+<path d="M498 348 C514 356 522 344 534 352" fill="none" stroke="#fce7f3" stroke-linecap="round" stroke-width="2.5"></path>
+</g>
+</g>
 </svg>
 <div class="floating-card card-bottom"><span class="card-symbol lavender">◈</span><span><strong>Creatividad que destaca</strong><small>Detalle y presentación</small></span></div>
-<div class="mini-stamp">DISEÑAMOS <b>IDEAS</b><span>EN 3D</span></div>
+<div class="mini-stamp">¡Hecho a mano <b>3D</b>!<span>IDEAS QUE COBRAN VIDA</span></div>
 </div>
 </div>
 </div>
-<div class="hero-bottom-line"><span>BIOLOGÍA</span><span>MATEMÁTICAS</span><span>HISTORIA</span><span>ARQUITECTURA</span><span>Y MÁS</span></div>
+<div class="hero-bottom-line"><span>🧬 BIOLOGÍA</span><span>📐 MATEMÁTICAS</span><span>🏛️ HISTORIA</span><span>🏙️ ARQUITECTURA</span><span>✨ Y MÁS</span></div>
 </section>
 <!-- =====================================================================
          SECCIÓN 2: NUESTROS SERVICIOS (7 CATEGORÍAS EXACTAS)
@@ -293,7 +1119,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 <!-- Beneficio 1 -->
 <div class="p-6 sm:p-7 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-amber-500/50 transition-colors">
-<div class="w-12 h-12 rounded-xl bg-amber-500/15 text-amber-400 flex items-center justify-center mb-5">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 text-white shadow-lg shadow-sky-500/30 flex items-center justify-center mb-5">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
 <path d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
@@ -305,7 +1131,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 </div>
 <!-- Beneficio 2 -->
 <div class="p-6 sm:p-7 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-amber-500/50 transition-colors">
-<div class="w-12 h-12 rounded-xl bg-sky-500/15 text-sky-400 flex items-center justify-center mb-5">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-400 to-green-600 text-white shadow-lg shadow-emerald-500/30 flex items-center justify-center mb-5">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
 <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
@@ -317,7 +1143,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 </div>
 <!-- Beneficio 3 -->
 <div class="p-6 sm:p-7 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-amber-500/50 transition-colors">
-<div class="w-12 h-12 rounded-xl bg-emerald-500/15 text-emerald-400 flex items-center justify-center mb-5">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-400 to-teal-600 text-white shadow-lg shadow-cyan-500/30 flex items-center justify-center mb-5">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
 <path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
@@ -329,7 +1155,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 </div>
 <!-- Beneficio 4 -->
 <div class="p-6 sm:p-7 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-amber-500/50 transition-colors">
-<div class="w-12 h-12 rounded-xl bg-purple-500/15 text-purple-400 flex items-center justify-center mb-5">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 text-white shadow-lg shadow-blue-500/30 flex items-center justify-center mb-5">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
 <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg>
@@ -342,7 +1168,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <!-- Beneficio 5 -->
 <div class="p-6 sm:p-7 rounded-2xl bg-slate-800/80 border border-slate-700/80 hover:border-amber-500/50 transition-colors sm:col-span-2 lg:col-span-2">
 <div class="flex flex-col sm:flex-row sm:items-center gap-5">
-<div class="w-12 h-12 rounded-xl bg-amber-500/15 text-amber-400 flex items-center justify-center shrink-0">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-400 to-emerald-600 text-white shadow-lg shadow-teal-500/30 flex items-center justify-center shrink-0">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
 <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -379,8 +1205,8 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <!-- Paso 1 -->
 <div class="relative p-6 rounded-2xl bg-paper border border-slate-200/90 shadow-xs hover:shadow-md transition-shadow">
 <div class="flex items-center justify-between mb-4">
-<span class="w-10 h-10 rounded-xl bg-slate-900 text-white font-extrabold text-base flex items-center justify-center">1</span>
-<span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Paso 01</span>
+<span class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 text-white font-extrabold text-base flex items-center justify-center shadow-md shadow-sky-500/25">1</span>
+<span class="text-xs font-bold uppercase tracking-wider text-sky-600">Paso 01</span>
 </div>
 <h3 class="text-lg font-bold text-slate-900 mb-2">
               Cuéntanos qué tipo de maqueta necesitas
@@ -392,8 +1218,8 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <!-- Paso 2 -->
 <div class="relative p-6 rounded-2xl bg-paper border border-slate-200/90 shadow-xs hover:shadow-md transition-shadow">
 <div class="flex items-center justify-between mb-4">
-<span class="w-10 h-10 rounded-xl bg-slate-900 text-white font-extrabold text-base flex items-center justify-center">2</span>
-<span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Paso 02</span>
+<span class="w-10 h-10 rounded-xl bg-gradient-to-br from-teal-400 to-emerald-600 text-white font-extrabold text-base flex items-center justify-center shadow-md shadow-teal-500/25">2</span>
+<span class="text-xs font-bold uppercase tracking-wider text-teal-600">Paso 02</span>
 </div>
 <h3 class="text-lg font-bold text-slate-900 mb-2">
               Envíanos fotografías o referencias de tu proyecto
@@ -405,8 +1231,8 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <!-- Paso 3 -->
 <div class="relative p-6 rounded-2xl bg-paper border border-slate-200/90 shadow-xs hover:shadow-md transition-shadow">
 <div class="flex items-center justify-between mb-4">
-<span class="w-10 h-10 rounded-xl bg-slate-900 text-white font-extrabold text-base flex items-center justify-center">3</span>
-<span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Paso 03</span>
+<span class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-sky-600 text-white font-extrabold text-base flex items-center justify-center shadow-md shadow-cyan-500/25">3</span>
+<span class="text-xs font-bold uppercase tracking-wider text-cyan-700">Paso 03</span>
 </div>
 <h3 class="text-lg font-bold text-slate-900 mb-2">
               Recibe tu cotización personalizada
@@ -418,8 +1244,8 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <!-- Paso 4 -->
 <div class="relative p-6 rounded-2xl bg-paper border border-slate-200/90 shadow-xs hover:shadow-md transition-shadow">
 <div class="flex items-center justify-between mb-4">
-<span class="w-10 h-10 rounded-xl bg-amber-600 text-white font-extrabold text-base flex items-center justify-center">4</span>
-<span class="text-xs font-semibold uppercase tracking-wider text-amber-600">Paso 04</span>
+<span class="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 text-white font-extrabold text-base flex items-center justify-center shadow-md shadow-emerald-500/25">4</span>
+<span class="text-xs font-bold uppercase tracking-wider text-emerald-600">Paso 04</span>
 </div>
 <h3 class="text-lg font-bold text-slate-900 mb-2">
               Coordina la elaboración y entrega
@@ -554,17 +1380,95 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
 <div class="relative grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 <!-- Información Comercial -->
 <div class="lg:col-span-7 space-y-5">
-<div class="inline-flex items-center gap-2.5">
-<div class="w-10 h-10 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold">
-<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.2" viewbox="0 0 24 24">
-<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-<polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-<line x1="12" x2="12" y1="22.08" y2="12"></line>
+<div class="flex flex-col sm:flex-row sm:items-center gap-4">
+<div class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-white p-1 shadow-lg border-2 border-sky-200 flex items-center justify-center shrink-0 overflow-hidden">
+<img alt="Logo Mi Maquetita 3D" class="w-full h-full object-contain" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" src="logo.png"/>
+<svg aria-label="Logo Mi Maquetita 3D" class="w-full h-full hidden" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<circle cx="200" cy="200" fill="#FFFDF9" r="196"></circle>
+<path d="M36 144 L188 30 L364 144" fill="none" stroke="#0284C7" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"></path>
+<path d="M42 140 L188 36 L358 140" fill="none" opacity="0.7" stroke="#38BDF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"></path>
+<rect fill="#0284C7" height="52" rx="4" width="34" x="278" y="42"></rect>
+<rect fill="#0EA5E9" height="11" rx="4" width="44" x="273" y="38"></rect>
+<g fill="none" stroke="#0EA5E9" stroke-linecap="round" transform="translate(88, 118) rotate(-28)">
+<path d="M-32 -22 A42 42 0 0 1 32 -22" stroke-width="7"></path>
+<path d="M-21 -11 A28 28 0 0 1 21 -11" stroke-width="7"></path>
+<path d="M-11 -1 A15 15 0 0 1 11 -1" stroke-width="7"></path>
+<circle cx="0" cy="9" fill="#0284C7" r="5" stroke="none"></circle>
+</g>
+<g transform="translate(322, 86) rotate(-22)">
+<path d="M-10 8 L-6 24 L4 22 L0 6 Z" fill="#0F172A"></path>
+<path d="M-24 -6 L18 -20 L18 20 L-24 6 Z" fill="#FACC15" stroke="#D97706" stroke-width="2"></path>
+<rect fill="#0F172A" height="14" rx="3" width="8" x="-28" y="-7"></rect>
+<ellipse cx="18" cy="0" fill="#F59E0B" rx="5" ry="20"></ellipse>
+<line stroke="#FACC15" stroke-linecap="round" stroke-width="4" x1="27" x2="38" y1="-10" y2="-16"></line>
+<line stroke="#FACC15" stroke-linecap="round" stroke-width="4" x1="29" x2="42" y1="0" y2="0"></line>
+<line stroke="#FACC15" stroke-linecap="round" stroke-width="4" x1="27" x2="38" y1="10" y2="16"></line>
+</g>
+<g transform="translate(115, 58)">
+<polygon fill="#22C55E" points="15,82 95,52 175,84 95,116"></polygon>
+<polygon fill="#B45309" points="15,82 95,116 95,127 15,92"></polygon>
+<polygon fill="#D97706" points="95,116 175,84 175,95 95,127"></polygon>
+<polygon fill="#1E293B" points="75,108 155,76 172,83 92,115"></polygon>
+<line stroke="#F8FAFC" stroke-dasharray="6,5" stroke-width="2" x1="90" x2="156" y1="107" y2="81"></line>
+<polygon fill="#E2E8F0" points="52,74 92,58 92,86 52,102"></polygon>
+<polygon fill="#F8FAFC" points="92,58 134,74 134,102 92,86"></polygon>
+<polygon fill="#CBD5E1" points="68,44 104,30 104,58 68,72"></polygon>
+<polygon fill="#FFFFFF" points="104,30 132,42 132,68 104,58"></polygon>
+<polygon fill="#0F172A" points="64,43 104,27 136,40 96,56"></polygon>
+<polygon fill="#D97706" points="72,48 86,43 86,65 72,70"></polygon>
+<polygon fill="#334155" points="108,37 126,44 126,62 108,55"></polygon>
+<polygon fill="#334155" points="97,66 124,76 124,96 97,86"></polygon>
+<circle cx="42" cy="72" fill="#15803D" r="13"></circle>
+<circle cx="46" cy="67" fill="#4ADE80" r="9"></circle>
+<circle cx="144" cy="66" fill="#15803D" r="11"></circle>
+<circle cx="141" cy="62" fill="#4ADE80" r="7"></circle>
+</g>
+<g transform="translate(22, 165) rotate(-14)">
+<rect fill="#0F172A" height="44" rx="5" width="66" x="6" y="4"></rect>
+<rect fill="#F0F9FF" height="36" rx="2" width="58" x="10" y="8"></rect>
+<rect fill="#0284C7" height="10" width="7" x="17" y="30"></rect>
+<rect fill="#06B6D4" height="15" width="7" x="27" y="25"></rect>
+<rect fill="#22C55E" height="20" width="7" x="37" y="20"></rect>
+<rect fill="#FACC15" height="26" width="7" x="47" y="14"></rect>
+<path d="M16 26 L32 20 L48 11" fill="none" stroke="#0F172A" stroke-linecap="round" stroke-width="2.5"></path>
+<polygon fill="#0F172A" points="48,11 41,11 47,17"></polygon>
+<polygon fill="#334155" points="0,48 78,48 72,56 6,56"></polygon>
+</g>
+<g>
+<polyline fill="none" points="295,180 326,162 356,192 342,236 364,274 326,262" stroke="#0EA5E9" stroke-width="2.5"></polyline>
+<circle cx="326" cy="162" fill="#EC4899" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<rect fill="none" height="14" rx="4" stroke="#FFFFFF" stroke-width="2" width="14" x="319" y="155"></rect>
+<circle cx="356" cy="192" fill="#0284C7" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<text fill="#FFFFFF" font-family="sans-serif" font-size="18" font-weight="800" text-anchor="middle" x="356" y="198">f</text>
+<circle cx="342" cy="236" fill="#22C55E" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<circle cx="342" cy="236" fill="none" r="7" stroke="#FFFFFF" stroke-width="2.2"></circle>
+<circle cx="364" cy="274" fill="#0F172A" r="16" stroke="#FFFFFF" stroke-width="2.5"></circle>
+<path d="M362 267 v11 a4 4 0 1 1 -3 -3.8" fill="none" stroke="#22D3EE" stroke-linecap="round" stroke-width="2.5"></path>
+</g>
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="44" font-style="italic" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="8" text-anchor="middle" x="195" y="185">Mi</text>
+<path d="M214 148 c-3-4 -9-2 -9 3 c0 4 9 9 9 9 s9-5 9-9 c0-5 -6-7 -9-3z" fill="#FACC15"></path>
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="43" font-style="italic" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="8" text-anchor="middle" x="198" y="230">Maquetita</text>
+<path d="M115 248 Q198 232 282 248" fill="none" stroke="#06B6D4" stroke-linecap="round" stroke-width="5"></path>
+<text fill="#D97706" font-family="'Inter', sans-serif" font-size="56" font-weight="900" text-anchor="middle" x="166" y="295">3</text>
+<text fill="#FACC15" font-family="'Inter', sans-serif" font-size="56" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" text-anchor="middle" x="163" y="292">3</text>
+<text fill="#0284C7" font-family="'Inter', sans-serif" font-size="56" font-weight="900" text-anchor="middle" x="228" y="295">D</text>
+<text fill="#22D3EE" font-family="'Inter', sans-serif" font-size="56" font-weight="900" paint-order="stroke" stroke="#FFFFFF" stroke-width="4" text-anchor="middle" x="225" y="292">D</text>
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="200" y="317">Transformamos tus ideas en maquetas</text>
+<text fill="#0F172A" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" text-anchor="middle" x="200" y="331">creativas que dan vida a tu imaginación.</text>
+<path d="M32 205 C32 330 120 382 215 380" fill="none" stroke="#0284C7" stroke-linecap="round" stroke-width="11"></path>
+<path d="M215 380 C285 378 335 342 356 294" fill="none" stroke="#F59E0B" stroke-linecap="round" stroke-width="11"></path>
+<path d="M122 355 Q195 335 282 352 Q215 352 122 355 Z" fill="#0284C7"></path>
+<path d="M138 366 Q215 348 292 362 Q225 368 138 366 Z" fill="#F59E0B"></path>
 </svg>
 </div>
+<div>
 <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
                   MI MAQUETITA 3D
                 </h2>
+<p class="text-xs sm:text-sm font-semibold text-emerald-300 mt-1">
+                  «Transformamos tus ideas en maquetas creativas que dan vida a tu imaginación.»
+                </p>
+</div>
 </div>
 <p class="text-slate-300 text-base max-w-xl leading-relaxed">
                 ¿Tienes un proyecto escolar o universitario en mente? Escríbenos directamente para recibir asesoramiento y cotizar tu maqueta a medida.
@@ -892,13 +1796,13 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
       if (!grid) return;
 
       grid.innerHTML = SERVICES_DATA.map((service) => `
-        <article class="group flex flex-col rounded-2xl bg-paper border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl hover:border-amber-300 transition-all duration-300">
+        <article class="group flex flex-col rounded-2xl bg-paper border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl hover:border-sky-300 transition-all duration-300">
           <div class="relative h-48 overflow-hidden bg-slate-200">
             <img
               src="${service.image}"
               alt="${service.alt}"
               loading="lazy"
-              onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f8fafc?text=${encodeURIComponent(service.title)}';"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x600/082f49/f0fdfa?text=${encodeURIComponent(service.title)}';"
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <span class="absolute bottom-2.5 left-2.5 bg-slate-900/75 backdrop-blur-xs text-white/90 text-[10px] font-medium px-2.5 py-0.5 rounded-full">
@@ -907,7 +1811,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
           </div>
           <div class="flex-1 p-5 flex flex-col justify-between space-y-4">
             <div>
-              <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-700 transition-colors">
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-sky-700 transition-colors">
                 ${service.title}
               </h3>
               <p class="mt-2 text-sm text-slate-600 leading-relaxed">
@@ -918,7 +1822,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
               <button
                 type="button"
                 onclick="selectCategoryAndScroll('${service.title}')"
-                class="w-full inline-flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs font-bold text-slate-800 bg-white hover:bg-amber-600 hover:text-white border border-slate-200 hover:border-amber-600 transition-colors cursor-pointer"
+                class="w-full inline-flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs font-bold text-slate-800 bg-white hover:bg-sky-600 hover:text-white border border-slate-200 hover:border-sky-600 transition-colors cursor-pointer"
               >
                 <span>Cotizar esta categoría</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -946,7 +1850,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
         const isActive = cat === activeGalleryFilter;
         const activeClasses = isActive
           ? 'bg-slate-900 text-white border-slate-900 shadow-sm'
-          : 'bg-white text-slate-700 border-slate-200 hover:border-amber-400 hover:text-amber-700';
+          : 'bg-white text-slate-700 border-slate-200 hover:border-sky-400 hover:text-sky-700';
 
         return `
           <button
@@ -988,25 +1892,25 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
               src="${item.image}"
               alt="${item.title} - ${item.category} (Imagen ilustrativa)"
               loading="lazy"
-              onerror="this.onerror=null;this.src='https://placehold.co/900x650/1e293b/f8fafc?text=${encodeURIComponent(item.title)}';"
+              onerror="this.onerror=null;this.src='https://placehold.co/900x650/082f49/f0fdfa?text=${encodeURIComponent(item.title)}';"
               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
             <!-- Overlay de ampliación al pasar el cursor -->
             <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/35 transition-colors duration-300 flex items-center justify-center">
               <span class="opacity-0 group-hover:opacity-100 transform scale-90 group-hover:scale-100 transition-all duration-300 inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/95 text-slate-900 text-xs font-bold shadow-lg">
-                <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <svg class="w-4 h-4 text-sky-600" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                 </svg>
                 Ampliar fotografía
               </span>
             </div>
-            <span class="absolute top-3 left-3 bg-white/95 backdrop-blur-xs text-slate-800 text-[11px] font-bold px-3 py-1 rounded-full shadow-xs">
+            <span class="absolute top-3 left-3 bg-white/95 backdrop-blur-xs text-sky-900 border border-sky-200 text-[11px] font-bold px-3 py-1 rounded-full shadow-xs">
               ${item.category}
             </span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
-              <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+              <h3 class="text-base font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
                 ${item.title}
               </h3>
               <p class="mt-1.5 text-sm text-slate-600 leading-relaxed">
@@ -1015,7 +1919,7 @@ html{scroll-padding-top:95px}body{background:#fffaf6!important;color:#262632!imp
             </div>
             <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
               <span>Referencia ilustrativa</span>
-              <span class="font-semibold text-amber-600 group-hover:translate-x-0.5 transition-transform">Ver detalle →</span>
+              <span class="font-bold text-sky-600 group-hover:translate-x-0.5 transition-transform">Ver detalle →</span>
             </div>
           </div>
         </article>
